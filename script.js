@@ -28,6 +28,7 @@ let btn = document.getElementById('btn');
 let output = document.getElementById('out');
 
 document.getElementById('out').innerHTML = (in1 + in2 + in3 + in4 + in5 + in6) * 365;
+document.getElementById('simpan').innerHTML = "Untuk menyimpan hasil, harap screenshot halaman ini!!!!"
 
 }
 
