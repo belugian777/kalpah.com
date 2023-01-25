@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.judul{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+.sampah{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3;
+    margin: 0px 40px 0px ;
+    gap: 30px;
+
+
+}
+
+.sampah img{
+    width: 100px;
+    padding-left: 10px;
+}
+
+/* cell style */
+
+/* 1 */
+.Bb-1{
+    background-color: rgb(255, 255, 255);
+    width: 125px;
+    height: 175px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Bb-1 label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.Bb-1 input{
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 20%;
+}
+
+/* 2 */
+
+.Bs-2{
+    width: 125px;
+    height: 175px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.Bs-2 label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.Bs-2 input{
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 20%;
+}
+
+/* 3 */
+.Bk-3{
+    width: 125px;
+    height: 175px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.Bk-3 label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.Bk-3 input{
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 20%;
+}
+
+/* 4*/
+.Kp-4{
+    width: 125px;
+    height: 175px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.Kp-4 label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.Kp-4 input{
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 20%;
+}
+/* 5*/
+.kaca-5{
+    width: 125px;
+    height: 175px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.kaca-5 label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.kaca-5 input{
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 20%;
+}
+
+/* 6 */
+.kaleng-6{
+    width: 125px;
+    height: 175px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.kaleng-6 label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.kaleng-6 input{
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 20%;
+}
+
+.output{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#out{
+    font-weight: 900;
+}
+
+#btn{
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 115, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;    
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+#btn :hover{
+    background-color: rgb(0, 85, 159);
+}
